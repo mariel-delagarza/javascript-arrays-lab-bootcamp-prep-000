@@ -19,3 +19,8 @@ function appendKitten(name) {
   Kittens1.push(name);
   return Kittens1
 }
+function prependKitten(name) {
+  var Kittens2 = [...kittens]
+  Kittens2.unshift(name);
+  return Kittens2 
+}
