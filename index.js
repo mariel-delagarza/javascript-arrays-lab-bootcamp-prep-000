@@ -1,5 +1,7 @@
 // Add your functions and code here
-function destructivelyAppendKitten(name) {
+kittens = ["Milo", "Otis", "Garfield"]
+
+function destructivelyAppendKitten(kittens) {
   array = array.concat(name);
   return array
 }
